@@ -7,3 +7,18 @@
 	width: 10rem;
 	height: 3rem;
 }
+
+.header-menu {
+	display: flex;
+	/* targets the individual flex items */
+	gap: 2rem;
+	list-style-type: none;
+}
+
+.header-menu > li {
+	cursor: pointer;
+}
+
+.header-menu > li:hover {
+	color: var(--orange);
+}

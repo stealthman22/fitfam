@@ -4,6 +4,42 @@
 }
 
 .left-h {
+	display: flex;
+	gap: 2rem;
+	flex-direction: column;
 	padding: 2rem;
 	padding-top: 1.5rem;
+	flex: 3;
+}
+
+.right-h {
+	flex: 1;
+}
+
+.the-best-ad {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+	margin-top: 4rem;
+	background-color: var(--appGrey);
+	border-radius: 4rem;
+	width: fit-content;
+	padding: 20px 13px;
+	text-transform: uppercase;
+	color: var(--light-text);
+}
+
+.the-best-ad > span {
+	z-index: 2;
+}
+
+.the-best-ad > div {
+	position: absolute;
+	left: 8px;
+	background-color: var(--orange);
+	width: 5.4rem;
+	height: 80%;
+	border-radius: 43em;
+	z-index: 1;
 }
