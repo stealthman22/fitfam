@@ -9,7 +9,8 @@
 	flex-direction: column;
 	padding: 2rem;
 	/* add this style to min-width 1920 */
-	/* padding-left: 10rem; */
+	/* padding-left: 10rem; 
+	changed my mind im building for 1440 px*/
 	padding-top: 1.5rem;
 	flex: 3;
 }
@@ -123,7 +124,7 @@
 	padding: 1rem;
 	align-items: flex-start;
 	position: absolute;
-	right: 4rem;
+	right: 2rem;
 	top: 7rem;
 }
 
@@ -142,14 +143,14 @@
 .hero-image {
 	position: absolute;
 	top: 10rem;
-	right: 15rem;
+	right: 9rem;
 	width: 25rem;
 }
 
 .hero-image-back {
 	position: absolute;
 	top: 6em;
-	right: 28rem;
+	right: 22rem;
 	z-index: -1;
 	width: 15rem;
 }
@@ -157,7 +158,7 @@
 .calories {
 	position: absolute;
 	top: 29rem;
-	right: 40rem;
+	right: 34rem;
 	display: flex;
 	gap: 2rem;
 	background-color: var(--caloryCard);
