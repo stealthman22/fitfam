@@ -89,3 +89,12 @@
 	/* color inherited from .right-r > span: var (--orange) */
 	color: var(--gray) !important;
 }
+
+.partners {
+	display: flex;
+	gap: 1rem;
+}
+
+.partners > img {
+	width: 2.9rem;
+}
