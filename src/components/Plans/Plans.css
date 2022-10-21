@@ -1,6 +1,6 @@
 .plans-container {
 	margin-top: -4rem;
-	padding: 0 2rem;
+	padding: 0 1rem;
 	display: flex;
 	flex-direction: column;
 	gap: 4rem;
@@ -20,6 +20,7 @@
 	background: var(--caloryCard);
 	color: var(--light-text);
 	gap: 2rem;
+	padding: 0 2rem;
 }
 
 /* Can target dynamically created divs */
