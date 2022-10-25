@@ -20,7 +20,7 @@
 	background: var(--caloryCard);
 	color: var(--light-text);
 	gap: 2rem;
-	padding: 0 2rem;
+	padding: 3rem;
 }
 
 /* Can target dynamically created divs */
@@ -35,6 +35,10 @@
 	fill: var(--orange);
 	width: 2rem;
 	height: 2rem;
+}
+
+.plan:nth-child(2) > svg {
+	fill: var(--light-text);
 }
 
 /* targets the second element found in a plan class */
@@ -58,6 +62,16 @@
 	gap: 1rem;
 }
 
+.feature {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
 .feature > img {
 	width: 1rem;
+}
+
+.programs-header > span {
+	font-size: 3rem;
 }
