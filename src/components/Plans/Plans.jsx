@@ -8,7 +8,7 @@ const Plans = () => {
 	return (
 		<div className="plans-container">
 			{/* Plans header */}
-			<div className="programs-header" style={{ gap: "2rem" }}>
+			<div className="programs-header">
 				<span className="stroke-text">Ready to begin </span>
 				<span> Your Fitness Journey </span>
 				<span className="stroke-text">with us ?</span>
