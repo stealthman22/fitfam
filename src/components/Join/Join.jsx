@@ -7,6 +7,7 @@ const Join = () => {
 	const sendEmail = (e) => {
 		e.preventDefault();
 
+		// sending emails with js
 		emailjs
 			.sendForm(
 				"YOUR_SERVICE_ID",
