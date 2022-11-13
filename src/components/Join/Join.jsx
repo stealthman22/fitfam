@@ -10,10 +10,10 @@ const Join = () => {
 		// sending emails with js
 		emailjs
 			.sendForm(
-				"YOUR_SERVICE_ID",
-				"YOUR_TEMPLATE_ID",
+				"service_73wts3q",
+				"template_gn09kau",
 				form.current,
-				"YOUR_PUBLIC_KEY"
+				"KPq0Hn7jmlL4oYTxD"
 			)
 			.then(
 				(result) => {
